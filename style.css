@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to left, rgb(124, 0, 128), pink);
+  }
+  h2 {
+    width: 500px;
+    height: 40px;
+    font-size: 30px;
+    padding-top: px;
+    border: 1px black solid;
+    text-align: center;
+  }
+  #text {
+    font-size: 21px;
+    padding: 4px;
+  }
+  .box {
+    background-color: #fff;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+  }
+  #h2 {
+    background-color: rgb(100, 42, 82);
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+  }
